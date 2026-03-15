@@ -1,19 +1,21 @@
 # Espressif Projects.
 
+![Proyecto](https://img.shields.io/badge/Proyecto-Espressif_Projects-blueviolet?style=for-the-badge) ![Área](https://img.shields.io/badge/Área-Electrónica-blue?style=for-the-badge) ![Status](https://img.shields.io/badge/Status-Activo-brightgreen?style=for-the-badge)    
+
 ![alt text](image.png)
 
 
 <!--------------------- PROYECTO DE LABORATORIO -------------------------->
-![Proyecto](https://img.shields.io/badge/Proyecto-Espressif_Projects-blueviolet?style=for-the-badge) 
+ 
 <!--![Proyecto](https://img.shields.io/badge/Proyecto-COLMENA%202-darkorange?style=for-the-badge)-->
 
 <!--------------------- ETIQUETAS DE ÁREA DEL PROYECTO -------------------------->
-![Área](https://img.shields.io/badge/Área-Electrónica-blue?style=for-the-badge)         
+   
 <!--![Área](https://img.shields.io/badge/Área-Estructuras%20(CAD)-orange?style=for-the-badge) -->
 <!-- ![Área](https://img.shields.io/badge/Área-Robótica-purple?style=for-the-badge) -->
 
 <!-------------------- ETIQUETAS DE ESTATUS DEL PROYECTO ------------------------->
-![Status](https://img.shields.io/badge/Status-Activo-brightgreen?style=for-the-badge)
+
 <!-- ![Área](https://img.shields.io/badge/Área-Simulación-green?style=for-the-badge) -->
 <!--![Status](https://img.shields.io/badge/Status-En%20Pausa-yellow?style=for-the-badge) -->
 <!--![Status](https://img.shields.io/badge/Status-Completado-blue?style=for-the-badge) -->
@@ -63,7 +65,7 @@ Toda la gestión de tareas, sprints y seguimiento de issues se maneja a través 
 
 | Nombre | Rol en el Proyecto | GitHub |
 | :--- | :--- | :--- |
-| [Nombre Apellido] | Líder de Proyecto / Electrónica | [@additrejo](https://github.com/additrejo) |
+| AddiTrejo | Desarrollador | [@additrejo](https://github.com/additrejo) |
 
 
 ---
