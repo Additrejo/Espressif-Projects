@@ -1,8 +1,8 @@
-# Espressif Projects.
+# Espressif Projects - Actuadores.
 
 ![Proyecto](https://img.shields.io/badge/Proyecto-Espressif_Projects-blueviolet?style=for-the-badge) ![Área](https://img.shields.io/badge/Área-Electrónica-blue?style=for-the-badge) ![Status](https://img.shields.io/badge/Status-Activo-brightgreen?style=for-the-badge)    
 
-![alt text](image.png)
+![alt text](ESP32_Actuadores.jpg)
 
 
 <!--------------------- PROYECTO DE LABORATORIO -------------------------->
@@ -27,12 +27,15 @@
 
 ## Descripción y objetivos
 
-Este repositorio funciona como un laboratorio centralizado de pruebas para el desarrollo y validación de firmware en microcontroladores ESP32 (y otros de la familia Espressif). Aquí se almacenan todos los códigos de prueba, ejemplos de implementación y proyectos completos relacionados con sensores, actuadores y periféricos.
+Esta carpeta contiene el desarrollo y validación de firmware en microcontroladores ESP32 (y otros de la familia Espressif), enfocado específicamente en la interacción con el mundo físico a través de actuadores.
 
-* **Objetivo Principal:** Centralizar y versionar todo el código de pruebas con sensores y actuadores para facilitar su reutilización en proyectos más complejos.
+Aquí se almacenan códigos de prueba, ejemplos de implementación, librerías personalizadas y proyectos completos que demuestran cómo el ESP32 puede controlar movimiento, sonido, luz (potencia) y mecanismos.
+
+* **Objetivo Principal:** Centralizar, versionar y documentar el código necesario para controlar diversos tipos de actuadores, facilitando su reutilización e integración rápida en proyectos de IoT y robótica más complejos.
 * **Objetivos Secundarios:**
-    * Mantener una biblioteca de códigos de referencia para cada componente (sensores, actuadores, módulos de comunicación).
-    * Acelerar el desarrollo de nuevos proyectos teniendo una base de código probada y funcional.
+    * **Biblioteca de Referencia:** Mantener una base de código probada para cada tipo de actuador (servos, motores DC, pasos, relés, etc.), detallando diagramas de conexión y requisitos de potencia.
+    * **Aceleración del Desarrollo:** Proveer bloques de construcción de software (drivers, tareas de FreeRTOS) funcionales para reducir el tiempo de desarrollo de nuevos prototipos.
+    * **Validación de Hardware:** Servir como banco de pruebas para verificar el correcto funcionamiento de drivers de potencia y mecánicas antes de la implementación final.
 ---
 
 ## 📊 Gestión del Proyecto
@@ -45,7 +48,7 @@ Toda la gestión de tareas, sprints y seguimiento de issues se maneja a través 
 
 ## 📜 Tabla de Contenidos
 
-- [Espressif Projects.](#espressif-projects)
+- [Espressif Projects - Actuadores.](#espressif-projects---actuadores)
   - [Descripción y objetivos](#descripción-y-objetivos)
   - [📊 Gestión del Proyecto](#-gestión-del-proyecto)
   - [📜 Tabla de Contenidos](#-tabla-de-contenidos)
@@ -134,5 +137,5 @@ Enlaces a documentación más detallada, que no encaja en el README.
 
 ## ⚖️ Licencia
 
-Si este repositorio te ayudo, agradeceremos los creditos.
+Si este repositorio te ayudó, agradeceremos los creditos.
 
