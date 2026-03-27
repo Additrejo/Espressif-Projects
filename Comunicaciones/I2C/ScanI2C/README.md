@@ -30,7 +30,8 @@ El código inicializa la comunicación serie y el bus I2C en los pines GPIO 21 (
 
 ## Ejemplo de Salida en el Monitor Serie
 
-En este ejemplo, se encontró una dirección `0x3C`.
+En este ejemplo, se encontró una dirección `0x3C`.  
+
 ![alt text](ScanI2C-captura.png)
 
 
