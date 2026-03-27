@@ -2,7 +2,7 @@
 
 ![Proyecto](https://img.shields.io/badge/Proyecto-Espressif_Projects-blueviolet?style=for-the-badge) ![Área](https://img.shields.io/badge/Área-Electrónica-blue?style=for-the-badge) ![Status](https://img.shields.io/badge/Status-Activo-brightgreen?style=for-the-badge)    
 
-![alt text](Comuncaciones_portada.png)
+![alt text](ESP32_Actuadores.jpg)
 <!--------------------- PROYECTO DE LABORATORIO -------------------------->
  
 <!--![Proyecto](https://img.shields.io/badge/Proyecto-COLMENA%202-darkorange?style=for-the-badge)-->
@@ -24,15 +24,15 @@
 
 
 ## Descripción y objetivos
-Esta carpeta contiene el desarrollo y validación de firmware en microcontroladores ESP32 (y otros de la familia Espressif), enfocado específicamente en la interacción digital y el intercambio de información a través de sistemas de comunicación y protocolos de red.
+Esta carpeta contiene el desarrollo y validación de firmware en microcontroladores ESP32 (y otros de la familia Espressif), enfocado específicamente en la interacción con el mundo físico a través de actuadores.
 
-Aquí se almacenan códigos de prueba, ejemplos de implementación, librerías personalizadas y proyectos completos que demuestran cómo el ESP32 puede gestionar la conectividad IoT, el control remoto y la monitorización a distancia utilizando diversas tecnologías inalámbricas y cableadas.
+Aquí se almacenan códigos de prueba, ejemplos de implementación, librerías personalizadas y proyectos completos que demuestran cómo el ESP32 puede controlar movimiento, sonido, luz (potencia) y mecanismos.
 
-* **Objetivo Principal:** Centralizar, versionar y documentar el código necesario para implementar diversos tipos de interfaces de comunicación, facilitando su reutilización e integración rápida en sistemas embebidos complejos y redes de IoT.
+* **Objetivo Principal:** Centralizar, versionar y documentar el código necesario para controlar diversos tipos de actuadores, facilitando su reutilización e integración rápida en proyectos de IoT y robótica más complejos.
 * **Objetivos Secundarios:**
-    * **Biblioteca de Referencia:**  Mantener una base de código probada para cada tipo de tecnología de comunicación (como LORA, ZIGBEE, Wifi, BLE, CAN, I2C, etc.), detallando diagramas de conexión, configuraciones de transceptores, parámetros de red y requisitos de antena/potenci
-    * **Aceleración del Desarrollo:** Proveer bloques de construcción de software (drivers, tareas de FreeRTOS especializadas para comunicaciones) funcionales para reducir el tiempo de desarrollo de nuevos prototipos conectados.
-    * **Validación de Hardware:** Servir como banco de pruebas para verificar el correcto funcionamiento de transceptores, módulos de radio, antenas, niveles de señal y tiempos de respuesta antes de la implementación final.
+    * **Biblioteca de Referencia:**  Mantener una base de código probada para cada tipo de actuador (servos, motores DC, pasos, relés, etc.), detallando diagramas de conexión y requisitos de potencia.
+    * **Aceleración del Desarrollo:** Proveer bloques de construcción de software (drivers, tareas de FreeRTOS) funcionales para reducir el tiempo de desarrollo de nuevos prototipos.
+    * **Validación de Hardware:** Servir como banco de pruebas para verificar el correcto funcionamiento de drivers de potencia y mecánicas antes de la implementación final.
 ---
 
 ## 📊 Gestión del Proyecto
@@ -89,7 +89,7 @@ Lista del software, hardware y componentes clave utilizados.
 
 ## 📁 Estructura del Repositorio
 
- * **[I2C:](https://github.com/Additrejo/Espressif-Projects/tree/main/Comunicaciones/I2C)** Esta carpeta contiene los proyectos relacionados con el protocolo de comunicación I2C.
+ * **[Leds:](https://github.com/Additrejo/Espressif-Projects/tree/main/Actuadores/Leds)** Esta carpeta contiene los proyectos relacionados con la programación de leds, tiras de luz y objetos  de optoelectrónica. 
 
 ---
 
