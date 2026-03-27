@@ -1,19 +1,23 @@
 {
     "configurations": [
         {
-            "name": "ESP-IDF",
+            "name": "PlatformIO",
             "includePath": [
                 "${workspaceFolder}/**",
-                "C:/Users/addi_/.platformio/packages/framework-espidf/components/**",
-                "C:/Users/addi_/.platformio/packages/framework-espidf/components/esp_driver_gpio/include",
-                "C:/Users/addi_/.platformio/packages/framework-espidf/components/freertos/FreeRTOS-Kernel/include",
-                "C:/Users/addi_/.platformio/packages/framework-espidf/components/esp_common/include",
-                "C:/Users/addi_/.platformio/packages/framework-espidf/components/esp_system/include",
-                "C:/Users/addi_/.platformio/packages/framework-espidf/components/log/include"
+                "C:/Users/addi_/.platformio/packages/framework-arduinoespressif32/**",
+                "C:/Users/addi_/.platformio/packages/framework-arduinoespressif32/cores/esp32",
+                "C:/Users/addi_/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src",
+                "C:/Users/addi_/.platformio/packages/toolchain-xtensa-esp32/xtensa-esp32-elf/include",
+                "C:/Users/addi_/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/**"
             ],
-            "defines": [],
+            "defines": [
+                "ARDUINO_ARCH_ESP32",
+                "ESP32",
+                "ARDUINO=10816"
+            ],
             "compilerPath": "C:/Users/addi_/.platformio/packages/toolchain-xtensa-esp32/bin/xtensa-esp32-elf-gcc.exe",
             "cStandard": "c17",
+            "cppStandard": "c++17",
             "intelliSenseMode": "gcc-x64"
         }
     ],

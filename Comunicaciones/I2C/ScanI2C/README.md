@@ -30,7 +30,9 @@ El código inicializa la comunicación serie y el bus I2C en los pines GPIO 21 (
 
 ## Ejemplo de Salida en el Monitor Serie
 
-En este ejemplo, se encontraron dos dispositivos en las direcciones `0x3C` y `0x68`.
+En este ejemplo, se encontró una dirección `0x3C`.
+![alt text](ScanI2C-captura.png)
+
 
 ## Personalización
 
@@ -40,4 +42,5 @@ En este ejemplo, se encontraron dos dispositivos en las direcciones `0x3C` y `0x
 ## Notas
 
 - El código está diseñado para ejecutarse solo una vez al inicio. Si necesitas un escaneo continuo, puedes mover el bloque de escaneo al `loop()`.
+- Puedes agregar otros dispositivos y usar el botón RESET de la placa para ver las nuevas direcciones, No es necesario volver a cargar el programa.
 - Las pequeñas pausas (`delay`) ayudan a la estabilidad de la comunicación.

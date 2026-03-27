@@ -8,8 +8,8 @@ void setup() {
 }
 
 void loop() {
-  digitalWrite(LED_PIN, HIGH);  // Encender
+  digitalWrite(LED_PIN, LOW);  // Encender
   delay(2000);                   // 100 milisegundos
-  digitalWrite(LED_PIN, LOW);   // Apagar
+  digitalWrite(LED_PIN, HIGH);   // Apagar
   delay(2000);                   // 100 milisegundos
 }
